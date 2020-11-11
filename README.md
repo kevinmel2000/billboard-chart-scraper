@@ -13,6 +13,7 @@ Billboard Chart Scraper is Open Source API and SDK of https://www.billboard.com/
 With Github 
 ```bash
 git clone https://github.com/fauzan121002/billboard-chart-scraper.git
+cd billboard-chart-scraper
 npm install
 npm start
 ```
