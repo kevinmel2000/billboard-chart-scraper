@@ -1,15 +1,20 @@
 {
   "name": "billboard-scraper",
   "version": "1.0.0",
-  "description": "",
+  "description": "Billboard Chart Scraper Built With Javascript , Nodejs , ExpressJS , Cheerio , and Request.",
   "main": "index.js",
   "scripts": {
     "build": "./node_modules/.bin/netlify-lambda build src",
     "serve": "./node_modules/.bin/netlify-lambda serve src",
     "start": "node index"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "billboard chart scrapper", 
+    "web scrapper", 
+    "netlify",
+    "express"
+  ],
+  "author": "github.com/fauzan121002",
   "license": "MIT",
   "dependencies": {
     "cheerio": "^1.0.0-rc.3",
