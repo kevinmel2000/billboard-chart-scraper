@@ -3,7 +3,7 @@ const cheerio = require('cheerio');
 const express = require('express');
 const router = express.Router();
 
-router.get('/billboard-200', (req, res) => {
+router.get('/', (req, res) => {
   url = 'https://www.billboard.com/charts/billboard-200';
 
   request(url, function(error, response, html){

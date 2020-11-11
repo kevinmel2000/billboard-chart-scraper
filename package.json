@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "netlify-lambda build /",
+    "build": "./node_modules/.bin/netlify-lambda build src",
+    "serve": "./node_modules/.bin/netlify-lambda serve src",
     "start": "node index"
   },
   "keywords": [],
